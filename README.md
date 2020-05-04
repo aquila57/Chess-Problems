@@ -18,13 +18,13 @@ file menu, click on load position.  Select the file, named mate.fen.
 
 The following short-cut keys may be used in xboard.
 
-Shift-PgDn - go to next problem
+* Shift-PgDn - go to next problem
 
-Shift-PgUp - go to previous problem
+* Shift-PgUp - go to previous problem
 
-Alt-left   - go to previous move
+* Alt-left   - go to previous move
 
-Alt-right  - go to next next
+* Alt-right  - go to next next
 
 If there is one good problem in mate.fen, then the effort to collect
 them will have be worthwhile.  Have fun solving them.
