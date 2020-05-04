@@ -24,7 +24,7 @@ The following short-cut keys may be used in xboard.
 
 * Alt-left   - go to previous move
 
-* Alt-right  - go to next next
+* Alt-right  - go to next move
 
 If there is one good problem in mate.fen, then the effort to collect
 them will have be worthwhile.  Have fun solving them.
