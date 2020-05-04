@@ -1,6 +1,6 @@
 # Chess Problems
 
-## Chess mating problems for beginners.
+## Mating problems for beginners.
 
 The file in this repository, called mate.fen, contains chess mating
 problems for beginning players.  The problems are not geared toward
