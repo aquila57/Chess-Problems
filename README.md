@@ -51,3 +51,25 @@ The following short-cut keys may be used in xboard.
 
 If there is one good problem in this repository, then the effort to
 collect them will have be worthwhile.  Have fun solving them.
+
+## Scramble a problem file
+
+This repository contains two executable programs to scramble
+a problem file.
+
+scrmbl - Linux binary to scramble a problem file.
+
+scrmbl.exe - Windows 10 executable to scramble a problem file.
+    This version of scrmbl.exe also works with wine.
+
+Linux example:
+
+cat blackm1.fen | scrmbl >random.fen
+
+Windows 10 example:
+
+scrmbl.exe <blackm1.fen >random.fen
+
+wine example:
+
+wine scrmbl.exe <blackm1.fen >random.fen
