@@ -16,7 +16,14 @@ for ln in lst:
 	# generate a random key between 0 and 1
 	ky = random.random()
 	# add this line to the dictionary by the random key
-	d[ky] = ln
+	# duplicate keys are not allowed
+	# re-run job if duplicate key occurs
+	if not ky in d:
+		d[ky] = ln
+	else:
+		print('A duplicate key error has occurred')
+		print('Rerun job to eliminate this error')
+		sys.exit(1)
 # create a sorted list of all random keys
 slst = sorted(d.keys())
 # for each key in sorted sequence
