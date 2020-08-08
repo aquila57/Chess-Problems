@@ -70,6 +70,8 @@ scrmbl.exe - Windows 10 executable to scramble a problem file.
 
 scrmbl.py - Python 3 script to scramble a problem file.
 
+scrmbl2.py - Python 2.7 script to scramble a problem file.
+
 Linux example:
 
 cat blackm1.fen | scrmbl >random.fen
@@ -84,4 +86,8 @@ wine scrmbl.exe <blackm1.fen >random.fen
 
 Python 3 example:
 
-python scrmbl.py <blackm1.fen >random.fen
+python3 scrmbl.py <blackm1.fen >random.fen
+
+Python 2.7 example:
+
+python2.7 scrmbl2.py <blackm1.fen >random.fen
