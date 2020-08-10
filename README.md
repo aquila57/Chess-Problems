@@ -54,14 +54,14 @@ collect them will have be worthwhile.  Have fun solving them.
 
 ## Scramble a problem file
 
-This repository contains three programs to scramble a problem
+This repository contains four programs to scramble a problem
 file.  There are some chess problems in this repository
 which are very similar to each other, so it is advisable to
 scramble the chess problems before you solve them in random
 sequence.  You can also concatenate several problem files together
 before you scramble and solve them.
 
-There are three versions of the scramble program.
+There are four versions of the scramble program.
 
 scrmbl - Linux binary to scramble a problem file.
 
@@ -69,8 +69,10 @@ scrmbl.exe - Windows 10 executable to scramble a problem file.
     This version of scrmbl.exe also works with wine.
 
 scrmbl.py - Python 3 script to scramble a problem file.
+    This version should work on Mac OSX
 
 scrmbl2.py - Python 2.7 script to scramble a problem file.
+    This version should work on Mac OSX
 
 Linux example:
 
@@ -84,10 +86,10 @@ wine example:
 
 wine scrmbl.exe <blackm1.fen >random.fen
 
-Python 3 example:
+Python 3 example for Mac OSX:
 
 python3 scrmbl.py <blackm1.fen >random.fen
 
-Python 2.7 example:
+Python 2.7 example for Mac OSX:
 
 python2.7 scrmbl2.py <blackm1.fen >random.fen
