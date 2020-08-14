@@ -93,3 +93,12 @@ python3 scrmbl.py <blackm1.fen >random.fen
 Python 2.7 example for Mac OSX:
 
 python2.7 scrmbl2.py <blackm1.fen >random.fen
+
+## Windows
+
+scrmbl.exe works under Windows
+
+## Mac OSX
+
+scrmbl.py and scrmbl2.py are meant to work under Mac OSX
+
