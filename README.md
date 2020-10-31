@@ -69,7 +69,7 @@ scrmbl.exe - Windows 10 executable to scramble a problem file.
     This version of scrmbl.exe also works with wine.
 
 scrmbl.py - Python 3 script to scramble a problem file.
-    This version should work on Mac OSX
+    This version works on Mac OSX
 
 scrmbl2.py - Python 2.7 script to scramble a problem file.
     This version should work on Mac OSX
