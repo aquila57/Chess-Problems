@@ -100,5 +100,5 @@ scrmbl.exe works under Windows
 
 ## Mac OSX
 
-scrmbl.py and scrmbl2.py are meant to work under Mac OSX
+scrmbl.py and scrmbl2.py work under Mac OSX
 
